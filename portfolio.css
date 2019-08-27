@@ -1,0 +1,20 @@
+/*-----------------------------------------TItle----------------------------*/
+nav{
+    border: solid black 2px;
+}
+
+.title{
+    text-align: center;
+}
+
+.navLinks{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+.navLinks li{
+    display: block;
+    flex: 0 1 auto;
+    list-style-type: none;
+}
