@@ -1,24 +1,64 @@
-/*-----------------------------------------TItle----------------------------*/
+body{
+    margin: 0;
+}
+/*-----------------------------------------Title----------------------------*/
 .nav{
     padding: 0px;
+    width: 100%;
+    display: flex;
+
+}
+
+.showcase{
+    background-image: linear-gradient(to right, #0D00FF, black);
+    
 }
 
 .title{
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 23px;
+    width: 100%;
+    color: #FFFBF3;
 }
+
 
 .navLinks li{
     display: flex;
     align-items: stretch;
     justify-content: space-around;
+    font-size: 13px;
+}
+
+@media only screen and (min-width:500px ){
+    .title{
+        font-size: 39px;
+    }
+    
+    .navLinks li{
+        font-size: 18px; 
+    }
+}
+
+a:link{
+    color: rgb(238, 207, 144);
+}
+
+.navLinks{
+    padding: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .contactInfo{
-    margin: 0 0 20px 0;
+    margin: 0 0 6px 0;
 }
 
-.portfolio{
-    margin: 0 0 20px 0;
+.portfolioLink{
+    margin: 0 0 6px 0;
 }
 
 .menuLeft{
@@ -29,6 +69,7 @@
 .menuRight{
     display: inline-block;
     width: 49%; 
+    flex-grow: 2;
 }
 /*----------------------------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------Contact Info----------------------------------------------------------------*/
@@ -38,19 +79,99 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 100px;
+    height: 80px;
     border-width: 4px;
     border-style: solid;
-    border-image: linear-gradient(to bottom, rgb(0, 0, 138), rgb(27, 216, 143))1 100%
+    border-image: linear-gradient(to bottom, rgb(0, 0, 138), rgb(27, 216, 143))1 100%;
+    
 }
 
-.name{
+.contact, .skillSection, .bio, .portfolio{
+    border: 2px solid black;
+}
+
+.contactLinks{
+    border: solid black 2px;
+    height: 20px;
+    margin: 0;
+    display: inline-flex;
+    width: 100%;
+}
+
+.contactLinks, li{
+    justify-content: space-between;
+}
+
+
+.name, .projectTitle{
+    font-size: 26px;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 5px;
+    font-family: 'Playfair Display', serif;
 }
 
-.headliner{
-    text-align: center;
+.headliner, .bioText, .appDiscript, .skillsText{
+    /* text-align: center; */
+    padding-left: 10px;
     margin-top: 3px;
+    margin-bottom: 2px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+
+}
+
+.linkedIn{
+    height: 18px;
+    width: 18px;
+}
+/*--------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------Skills------------------------------------------*/
+
+.jsLogo{
+    margin-top: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
+    width: 80px;
+}
+/*-------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------Bio--------------------------------------------*/
+.bioTitle{
+    text-align: center;
+    margin-bottom: 0;
+    font-family: 'Cinzel', serif;
+}
+
+.capB{
+    font-size: 60px;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+/*------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------Portfolio----------------------------------------------*/
+.projectTitle{
+    /* font-family: 'Lexend Deca', sans-serif; */
+    border-bottom: gray 3px solid;
+}
+
+.destinyQuiz{
+    height: 125px;
+    width: 150px;
+    margin-top: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    
+}
+
+.portfolioLogo{
+    margin-top: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: 120px;
 }
