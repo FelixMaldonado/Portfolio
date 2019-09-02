@@ -17,64 +17,83 @@
         <nav class="nav">
             <div class="menuLeft">
                 <ul class="navLinks">
-                    <li class="contactInfo"><a href="##">Contact Information</a> </li>
-                    <li class="skills"><a href="##">Skills</a></li>
+                    <li class="contactInfo"><a href="#portraitID">Contact Info</a></li>
+                    <li class="skills"><a href="#skillsID">Skills</a></li>
                 </ul> 
             </div>
             <div class="menuRight">
                 <ul class="navLinks">
-                    <li class="portfolioLink"><a href="##">Portfolio</a></li>
-                    <li class="bioLink"><a href="##">Bio</a></li>
+                    <li class="portfolioLink"><a href="#portfolioID">Portfolio</a></li>
+                    <li class="bioLink"><a href="#bioID">Bio</a></li>
                     
                 </ul> 
             </div>
-        </nav>
+        </nav> 
         </header>
-<!-- ----------------------------------------------------------------Contact------------------------------------------------------------->
+<!-------------------------------------------------------------------Contact------------------------------------------------------------->
         <main>
             <div class="contact">
-                <img class="portrait" src="Felix.jpg"/>
+                <img class="portrait" id="portraitID" src="Felix.jpg"/>
                 <h3 class="name">Felix Maldonado</h3>
                 <p class="headliner">A seasoned professional with a passion for problem-solving in a team-oriented environment.</p>
                 <div class="contactLinksContainer">
                         <ul class="contactLinks">
-                            <li><a href="#"><image class="linkedIn" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/600px-LinkedIn_logo_initials.png" ></image></li>
-                            <li><a href="#"><image class="linkedIn" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/600px-LinkedIn_logo_initials.png" ></image></li>
-                            <li><a href="#"><image class="linkedIn" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/600px-LinkedIn_logo_initials.png" ></image></li>
+                            <li><a href="https://www.linkedin.com/in/felix-maldonado-cip-47006bb9/?trk=public-profile-join-page"><image class="linkImg" src="https://cdn3.iconfinder.com/data/icons/peelicons-vol-1/50/LinkedIn-256.png"></image></a></li>
+                            <li><a class="mail" href="mailto:felix_maldonado@hotmail.com"><image class="linkImg" src="https://cdn3.iconfinder.com/data/icons/peelicons-vol-1/50/Mail-256.png"></image></a></li>
+                            <li><a href="https://github.com/FelixMaldonado"><image class="linkImg" src="https://cdn2.iconfinder.com/data/icons/social-icons-circular-color/512/github-256.png"></image></a></li>
                         </ul>
                         
                 </div>
             </div>
+<hr>
 <!--------------------------------------------------------------------Skills---------------------------------------------------------------->
             <div class="skillSection">
-                <img class="jsLogo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/900px-JavaScript-logo.png"/>
-                <h3 class="name">Specializing In: </h2>
-                <p class="skillsText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla totam ex sequi facere dolor, consequatur
-                                         expedita in? Nulla nisi, placeat iusto aliquid cumque incidunt! Molestiae quibusdam laboriosam inventore
-                </p>
+                <img class="jsLogo" id="skillsID" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/900px-JavaScript-logo.png"/>
+                <h3 class="name">Specializing In: </h3>
+                <p class="skillsText">HTML, CSS, Javascript, JQuery, React, Node, Express, SQL, MongoDB</p>
             </div>
+<hr>
 <!-------------------------------------------------------------------Bio---------------------------------------------------------------------->
             <div class="bio">
-                    <h2 class="bioTitle"><span class="capB">B</span>io</h3>
-                    <p class="bioText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic distinctio perferendis voluptas, explicabo
-                                        nobis rerum quibusdam, dicta eligendi repellat ab numquam nemo doloremque neque, praesentium minus? Ut
-                                        voluptatibus eum quam?
-                    </p>
+                    <h2 class="bioTitle" id="bioID"><span class="capB">B</span>io</h2>
+                    <p class="bioText">Ever since diving into the world of Web Development, I've been in love.  Not only with the knowledge I've
+                        gained, but with the experiences that come along in gaining that knowledge.<br>
+                        I have a desire for that feeling you get when you figure out a problem and quietly give yourself a hand or fist pump.
+                        That feeling drives me to continuously seek to solve problems and learn as much about solving these problems through coding as I can.<br>
+                        I stepped into this career knowing that there will be limitless hours of learning to stay relevant, and this is what excites 
+                        me about the future of our field. I wish to share my passion with others, through teamwork, and collaboration.</p>
             </div>
+<hr>
 <!------------------------------------------------------------------Portfolio------------------------------------------------------------------>
             <div class="portfolio">
-                <img class="portfolioLogo" src="https://i2.wp.com/www.buyholdlong.com/wp-content/uploads/2017/01/portfolio-logo1.jpg?w=657&ssl=1"/>
+                <!-- <img class="portfolioLogo" id="portfolioID" src="https://i2.wp.com/www.buyholdlong.com/wp-content/uploads/2017/01/portfolio-logo1.jpg?w=657&ssl=1"/> -->
+                <img class="portfolioLogo" id="portfolioID" src="https://www.iconsdb.com/icons/preview/black/folder-2-xxl.png"/>
+                <h2 class="portfolioTitle">Portfolio</h2>
                 <div class="quizApp">
                     <h3 class="projectTitle">Quiz App</h3>
                     <a href="https://felixmaldonado.github.io/QuizApp/"><img class="destinyQuiz" src="https://pbs.twimg.com/profile_images/1157406960850878464/5vD125a-_400x400.jpg"/></a>
-                    <p class="appDiscript">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, facilis quae eos voluptatibus iusto, molestias est atque
-                        illum, animi officia velit blanditiis impedit temporibus. Nihil tenetur incidunt consectetur eveniet nobis.</p>
+                    <p class="appDescript">This app is a quiz based on a video game called Destiny.  It asks the user ten questions based on the video game.  If
+                        you get the answer correct, you will see your score along with a piece of lore relating to Destiny.  If you get the answer wrong
+                        You will then see your score along with the correct answer.  Once all questions are completed, you will be given the option to retake
+                        the quiz. This app was created using Javascript and JQuery.</p>
+                    <div class="apps">
+                                <ul class="appLinks">
+                                    <li><a href="https://felixmaldonado.github.io/QuizApp/"><image class="startApp" src="https://cdn2.iconfinder.com/data/icons/iconslandplayer/PNG/256x256/CircleBlue/Play1Hot.png"></image></a></li>
+                                    <li><a href="https://github.com/FelixMaldonado/QuizApp.git"><image class="gitHub" src="https://cdn2.iconfinder.com/data/icons/social-icons-circular-color/512/github-256.png"></image></a></li>
+                                </ul>
+                        </div>
                 </div>
                 <div class="futureApp">
                     <h3 class="projectTitle">Future App</h3>
                     <a href="https://felixmaldonado.github.io/QuizApp/"><img class="destinyQuiz" src="https://www.valuecoders.com/blog/wp-content/uploads/2016/06/futute-of-mobile-application-development2.jpg"/></a>
-                    <p class="appDiscript">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, facilis quae eos voluptatibus iusto, molestias est atque
+                    <p class="appDescript">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, facilis quae eos voluptatibus iusto, molestias est atque
                         illum, animi officia velit blanditiis impedit temporibus. Nihil tenetur incidunt consectetur eveniet nobis.</p>
+                        <div class="apps">
+                            <ul class="appLinks">
+                                <li><a href="https://felixmaldonado.github.io/QuizApp/"><image class="startApp" src="https://cdn2.iconfinder.com/data/icons/iconslandplayer/PNG/256x256/CircleBlue/Play1Hot.png"></image></a></li>
+                                <li><a href="https://github.com/FelixMaldonado/QuizApp.git"><image class="gitHub" src="https://cdn2.iconfinder.com/data/icons/social-icons-circular-color/512/github-256.png"></image></a></li>
+                            </ul>
+                    </div>
                 </div>
             </div>
         </main>
