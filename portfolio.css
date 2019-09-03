@@ -8,12 +8,6 @@ body{
     display: flex;
 }
 
-@media only screen and (min-width:768px){
-    .nav{
-        display: inline;
-    }
-}
-
 p{
     padding-left: 13px;
     padding-right: 10px;
@@ -47,11 +41,6 @@ hr{
     color: #FFFBF3;
 }
 
-@media only screen and (min-width: 768px){
-    .title{
-        font-size: 50px;
-    }
-}
 
 
 .navLinks li{
@@ -61,16 +50,6 @@ hr{
     font-size: 18px;
     min-width: max-content;
 }
-
-@media only screen and (min-width: 768px){
-    .navLinks li{
-        font-size: 22px;
-        /* width: 40%;
-        float: left; */
-        display: inline-block;
-    }
-}
-
 
 a:link{
     color: rgb(238, 207, 144);
@@ -86,48 +65,15 @@ a:visited{
     margin-bottom: 5px;
 }
 
-@media only screen and (min-width: 768px){
-    .navLinks{
-        display: inline-block;
-    }
-}
-
 .contactInfo, .portfolioLink{
     margin: 0 0 6px 0;
 }
-
-@media only screen and (min-width: 768px){
-    .contactInfo{
-        min-width: max-content;
-        margin-left: 50%
-    }
-
-    /* .skills{
-        margin-left: 117%;
-    }
-
-    .portfolioLink{
-        margin-left: 44%;
-    }
-
-    .bioLink{
-        margin-left: 199%
-    } */
-
-    
-}
-
 
 .menuLeft{
     display: inline-block;
     width: 49%;
 }
 
-@media only screen and (min-width: 768px){
-    .menuLeft{
-        margin: auto;
-    }
-}
 
 .menuRight{
     display: inline-block;
@@ -135,21 +81,12 @@ a:visited{
     flex-grow: 2;
 } 
 
-@media only screen and (min-width: 768px){
-    .menuRight{
-        margin: auto;
-    }
-}
 
 
 /*----------------------------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------Contact Info----------------------------------------------------------------*/
 
-@media only screen and (min-width: 768px){
-    .contact{
-        /* display: flex; */
-    }
-}
+
 
 .portrait{
     margin-top: 25px;
@@ -161,20 +98,6 @@ a:visited{
     border-style: solid;
     border-image: linear-gradient(to bottom, rgb(0, 0, 138), rgb(27, 216, 143))1 100%;
 }
-
-@media only screen and (min-width: 768px){
-    .portrait{
-        height: 120px;
-        margin-left: 17%;
-        margin-right: 5%;
-    }
-}
-
-/* .mail:link{
-    border: blue 2px dotted;
-    border-radius: 50%;
-
-} */
 
 .contactLinks, .appLinks{
     /* border: solid black 2px; */
@@ -202,12 +125,6 @@ a:visited{
     font-family: 'Playfair Display', serif;
 }
 
-@media only screen and (min-width: 768px){
-    .name, .projectTitle{
-        font-size: 35px;
-}
-
-
 .headliner{
     margin-bottom: 5px;
 }
@@ -220,7 +137,7 @@ a:visited{
 /*--------------------------------------------------------------------------------------------------------*/
 /*--------------------------------------------------------Skills------------------------------------------*/
 
-.jsLogo{
+.jsLogo, .bioLogo{
     margin-top: 25px;
     display: block;
     margin-left: auto;
@@ -229,19 +146,11 @@ a:visited{
     width: 80px;
 }
 
-@media only screen and (min-width: 768px){
-    .jsLogo{
-        height: 120px;
-        width: 120px;
-        margin-left: 17%;
-        margin-right: 5%;
-    }
-}
 /*-------------------------------------------------------------------------------------------------------*/
 /*--------------------------------------------------------Bio--------------------------------------------*/
 .bioTitle{
-    text-align: center;
-    margin-bottom: 0;
+    /* text-align: center;
+    margin-bottom: 0; */
     font-family: 'Cinzel', serif;
 }
 
@@ -296,4 +205,79 @@ a:visited{
 
 .appLinks{
     margin-bottom: 18px;
+}
+/* ---------------------------------------------------------------------------------------------------------------------------- */
+
+@media only screen and (min-width:768px){
+    .nav{
+        display: inline;
+    }
+
+    .title{
+        font-size: 50px;
+    }
+
+    .navLinks li{
+        font-size: 22px;
+        display: inline-block;
+    }
+
+    .navLinks{
+        display: inline-block;
+    }
+
+    .contactInfo{
+        min-width: max-content;
+    }
+
+    .menuLeft{
+        width: auto;
+       
+    }
+
+    .menuRight{
+        width: auto;
+    }
+
+    .contact{
+        display: flex;
+    }
+
+    .portrait{
+        height: 120px;
+        margin-left: 17%;
+        margin-right: 5%;
+    }
+
+    .name, .projectTitle{
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .jsLogo, .bioLogo{
+        height: 120px;
+        width: 120px;
+        margin-left: 17%;
+        margin-right: 5%;
+    }
+
+    .skillSection{
+        display: flex;
+    }
+
+    .bio{
+        display: flex;
+    }
+
+    .bioTitle{
+        text-align: center;
+    }
+
+    .skillInformation{
+        width: 100%;
+    }
+
+    .contactInformation{
+        width: 100%;
+    }
 }
