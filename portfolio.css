@@ -16,6 +16,8 @@ p{
     font-family: 'Lexend Deca', sans-serif;
     line-height: 1.6;
     font-size: 18px;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .showcase{
@@ -117,7 +119,7 @@ a:visited{
 
 }
 
-.name, .projectTitle{
+.name, .projectTitle, .skillsTitle{
     font-size: 26px;
     text-align: center;
     margin-top: 10px;
@@ -149,8 +151,8 @@ a:visited{
 /*-------------------------------------------------------------------------------------------------------*/
 /*--------------------------------------------------------Bio--------------------------------------------*/
 .bioTitle{
-    /* text-align: center;
-    margin-bottom: 0; */
+    text-align: center;
+    margin-bottom: 0;
     font-family: 'Cinzel', serif;
 }
 
@@ -223,21 +225,23 @@ a:visited{
     }
 
     .navLinks{
-        display: inline-block;
+        display: flex;
+        justify-content: space-around;
+        
     }
 
     .contactInfo{
         min-width: max-content;
     }
 
-    .menuLeft{
+    /* .menuLeft{
         width: auto;
        
-    }
+    } */
 
-    .menuRight{
+    /* .menuRight{
         width: auto;
-    }
+    } */
 
     .contact{
         display: flex;
@@ -249,16 +253,26 @@ a:visited{
         margin-right: 5%;
     }
 
-    .name, .projectTitle{
+    .name, .projectTitle, .skillsTitle{
         font-size: 35px;
         text-align: center;
     }
+
+    /* .name{
+        margin-right: 53%;
+    } */
 
     .jsLogo, .bioLogo{
         height: 120px;
         width: 120px;
         margin-left: 17%;
         margin-right: 5%;
+    }
+
+    .jsLogo{
+        float:right;
+        margin-right: 17%;
+        margin-left: 5%;
     }
 
     .skillSection{
@@ -279,5 +293,49 @@ a:visited{
 
     .contactInformation{
         width: 100%;
+    }
+}
+
+@media only screen and (min-width:823px){
+    .contactInformation, .bioText{
+        margin-right:5%;
+    }
+
+    /* .name{
+        width:64%;
+    } */
+
+    .skillsText{
+        margin-left: 5%;
+    }
+}
+
+@media only screen and (min-width:1366px){
+    .skillsTitle{
+    margin-right: 44%;
+    }
+}
+
+@media only screen and (min-width:1190px){
+    .skillsTitle{
+    margin-right: 39%;
+    }
+}
+
+@media only screen and (min-width:1334px){
+    .skillsTitle{
+    margin-right: 47%;
+    }
+}
+
+@media only screen and (min-width:1574px){
+    .skillsTitle{
+    margin-right: 55%;
+    }
+}
+
+@media only screen and (min-width:1913px){
+    .skillsTitle{
+    margin-right: 63%;
     }
 }
