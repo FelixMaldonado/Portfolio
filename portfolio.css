@@ -102,7 +102,6 @@ a:visited{
 }
 
 .contactLinks, .appLinks{
-    /* border: solid black 2px; */
     height: 20px;
     margin: 0;
     display: flex;
@@ -234,14 +233,6 @@ a:visited{
         min-width: max-content;
     }
 
-    /* .menuLeft{
-        width: auto;
-       
-    } */
-
-    /* .menuRight{
-        width: auto;
-    } */
 
     .contact{
         display: flex;
@@ -258,9 +249,6 @@ a:visited{
         text-align: center;
     }
 
-    /* .name{
-        margin-right: 53%;
-    } */
 
     .jsLogo, .bioLogo{
         height: 120px;
@@ -300,10 +288,6 @@ a:visited{
     .contactInformation, .bioText{
         margin-right:5%;
     }
-
-    /* .name{
-        width:64%;
-    } */
 
     .skillsText{
         margin-left: 5%;
