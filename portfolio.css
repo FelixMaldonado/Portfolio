@@ -21,7 +21,7 @@ p{
 }
 
 .showcase{
-    background-image: linear-gradient(to right, #0D00FF, black);
+    background-image: linear-gradient(to right, #0D00FF, #0C3BE8);
     
 }
 
@@ -40,7 +40,7 @@ hr{
     font-family: 'Gayathri', sans-serif;
     font-size: 30px;
     width: 100%;
-    color: #FFFBF3;
+    color: rgb(228, 224, 217);
 }
 
 
@@ -54,11 +54,11 @@ hr{
 }
 
 a:link{
-    color: rgb(238, 207, 144);
+    color: #B39500;
 }
 
 a:visited{
-    color: #ff9c32;
+    color: rgb(192, 209, 39);
 }
 
 .navLinks{
@@ -119,10 +119,10 @@ a:visited{
 }
 
 .name, .projectTitle, .skillsTitle{
-    font-size: 26px;
+    font-size: 35px;
     text-align: center;
     margin-top: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     font-family: 'Playfair Display', serif;
 }
 
@@ -151,7 +151,7 @@ a:visited{
 /*--------------------------------------------------------Bio--------------------------------------------*/
 .bioTitle{
     text-align: center;
-    margin-bottom: 0;
+    margin-bottom: 10px;
     font-family: 'Cinzel', serif;
 }
 
@@ -164,7 +164,7 @@ a:visited{
 /*-----------------------------------------------Portfolio----------------------------------------------*/
 .portfolioTitle{
     text-align: center;
-    margin-bottom: 0;
+    margin-bottom: 10px;
     font-family: 'Cinzel', serif;
     font-size: 30px;
     margin-top: 3px;
@@ -174,7 +174,7 @@ a:visited{
     font-size: 30px;
     text-align: center;
     margin-top: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
     font-family: 'Aclonica', sans-serif;
     background-image: linear-gradient( rgb(194, 191, 182) , white) 
 }
@@ -192,9 +192,9 @@ a:visited{
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
-    border: 8px groove #1bc2ff;
+    border: 8px solid #0D00FF;
 }
-/* test */
+
 .portfolioLogo{
     margin-top: 25px;
     display: block;
@@ -244,82 +244,57 @@ a:visited{
         margin-right: 5%;
     }
 
-    .name, .projectTitle, .skillsTitle{
+    .projectTitle, .skillsTitle{
         font-size: 35px;
         text-align: center;
+    }
+
+    .name{
+        display: flex;
+        justify-content: center;
     }
 
 
     .jsLogo, .bioLogo{
         height: 120px;
         width: 120px;
-        margin-left: 17%;
+        margin-left: 12%;
         margin-right: 5%;
     }
 
     .jsLogo{
         float:right;
-        margin-right: 17%;
+        margin-right: 12%;
         margin-left: 5%;
+    }
+
+    .skillsTitle{
+        display: flex;
+        justify-content: center;
+        width: 67%;
     }
 
     .skillSection{
         display: flex;
     }
 
-    .bio{
-        display: flex;
+    .skillsText{
+        display:flex;
+        justify-content: center;
+        margin-left: 40px;
     }
 
-    .bioTitle{
-        text-align: center;
+    .bio{
+        display: flex;
     }
 
     .skillInformation{
         width: 100%;
     }
 
-    .contactInformation{
-        width: 100%;
-    }
-}
 
-@media only screen and (min-width:823px){
-    .contactInformation, .bioText{
-        margin-right:5%;
-    }
-
-    .skillsText{
-        margin-left: 5%;
-    }
-}
-
-@media only screen and (min-width:1366px){
+@media only screen and (min-width:1440px){
     .skillsTitle{
-    margin-right: 44%;
-    }
-}
-
-@media only screen and (min-width:1190px){
-    .skillsTitle{
-    margin-right: 39%;
-    }
-}
-
-@media only screen and (min-width:1334px){
-    .skillsTitle{
-    margin-right: 47%;
-    }
-}
-
-@media only screen and (min-width:1574px){
-    .skillsTitle{
-    margin-right: 55%;
-    }
-}
-
-@media only screen and (min-width:1913px){
-    .skillsTitle{
-    margin-right: 63%;
+        width: 74%;
     }
 }
