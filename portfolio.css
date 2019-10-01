@@ -241,6 +241,10 @@ a:visited{
         min-width: max-content;
     }
 
+    .contactInformation{
+        margin-right: 10%;
+    }
+
 
     .contact{
         display: flex;
@@ -262,6 +266,10 @@ a:visited{
     .name{
         display: flex;
         justify-content: center;
+    }
+
+    .bioInformation{
+        margin-right: 10%;
     }
 
     .bioLogo{
